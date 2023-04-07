@@ -1,0 +1,35 @@
+.containerPlayers {
+    display: none;
+}
+
+@media(max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .containerPlayers {
+        display: flex;
+        flex-direction: column;
+        padding: 85px 0px 0;
+    }
+    
+    .contianerSlider {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .containerPlayers h1 {
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    .slider {
+        display: flex;
+        width: auto;
+        height: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-left: 15px;
+    }
+    
+}
