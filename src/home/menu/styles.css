@@ -17,26 +17,61 @@
     }
 
     .menu p {
-        margin-bottom: 0;
-        text-align: center;
+        text-align: left;
+        font-size: 13px;
+        margin-bottom: 5px;
     }
 
     .menu .price {
         margin-bottom: 42px;
-        font-size: 25px;
+        font-size: 18px;
         color: #000;
     }
 
     .snack {
-        width: 260px;
+        width: 160px;
+        margin-top: 20px;
+    }
+
+    .containerSnack {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerDescription {
+        margin: 35px 0 0 15px
+    }
+
+    .menuSnack {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 35px;
     }
 
     .containerMenu strong {
-        margin-top: 15px;
-        font-size: 20px;
+        margin-top: 0;
     }
 
     .containerMenu h1 {
         margin: 0 0 20px;
+    }
+
+    .contaienrButtons {
+        margin: 20px 0 40px 0px
+    }
+
+    .contaienrButtons .snack {
+        background: #FF9A44;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .contaienrButtons .drink {
+        font-size: 14px;
     }
 }

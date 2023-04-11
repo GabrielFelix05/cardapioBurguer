@@ -1,0 +1,32 @@
+[
+    {   
+        "id": 1,
+        "name": "Coca-Cola",
+        "image": "https://i.ibb.co/HCPrrTV/refrigerante.png",
+        "price": "R$ 10,00"
+    },
+    {   
+        "id": 2,
+        "name": "Coca-Cola",
+        "image": "https://i.ibb.co/HCPrrTV/refrigerante.png",
+        "price": "R$ 10,00"
+    },
+    {   
+        "id": 3,
+        "name": "Coca-Cola",
+        "image": "https://i.ibb.co/HCPrrTV/refrigerante.png",
+        "price": "R$ 10,00"
+    },
+    {   
+        "id": 4,
+        "name": "Coca-Cola",
+        "image": "https://i.ibb.co/HCPrrTV/refrigerante.png",
+        "price": "R$ 10,00"
+    },
+    {   
+        "id": 5,
+        "name": "Coca-Cola",
+        "image": "https://i.ibb.co/HCPrrTV/refrigerante.png",
+        "price": "R$ 10,00"
+    }
+]
