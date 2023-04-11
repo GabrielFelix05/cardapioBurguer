@@ -18,6 +18,7 @@
 
     .menu p {
         margin-bottom: 0;
+        text-align: center;
     }
 
     .menu .price {
@@ -25,16 +26,6 @@
         font-size: 25px;
         color: #000;
     }
-
-    /* .menu a {
-        font-size: 16px;
-        background: #FF9A44;
-        color: #fff;
-        text-decoration: none;
-        padding: 5px 30px;
-        border-radius: 5px;
-        margin-top: 20px;
-    } */
 
     .snack {
         width: 260px;

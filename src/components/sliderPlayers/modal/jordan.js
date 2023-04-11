@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import Lebron from '../imgs/lebronJames.jpg'
+import Jordan from '../imgs/jordan.jpg'
 import Close from '../imgs/close.png'
 
 export default function Modal() {
@@ -20,7 +20,7 @@ export default function Modal() {
     <>
 
         <div className='Player' onClick={toggleModal}>
-            <img src={Lebron} alt="Lebron" className='imgplayer'/>
+            <img src={Jordan} alt="Jordan" className='imgplayer'/>
             <p>Jordan</p>
         </div>
 
@@ -30,12 +30,7 @@ export default function Modal() {
           <div className="modal-content">
             <h2>Jordan</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
+              Michael Jordan nascido em 17 de fevereiro de 1963 é um ex-jogador de basquetebol norte-americano que atuava como meio armador. É considerado um dos maiores jogadores de todos os tempos e defendeu o time Chicago Bulls em 1984 a 1993. 
             </p>
             <button className="close-modal" onClick={toggleModal}>
               <img src={Close} alt="Fechar" className='imgClose'/>

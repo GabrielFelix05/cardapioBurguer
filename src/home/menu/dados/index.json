@@ -3,35 +3,35 @@
         "id": 1,
         "name": "Lebron",
         "image": "https://i.ibb.co/K78f7Dk/lanche.png",
-        "price": "R$ 20,00",
-        "description": "Esse lanche tem..."
+        "price": "R$ 32,00",
+        "description": "Pão de brioche, carne 130g, molho cheddar com bacon crispy"
     },
     {   
         "id": 2,
         "name": "Jordan",
         "image": "https://i.ibb.co/K78f7Dk/lanche.png",
-        "price": "R$ 20,00",
-        "description": "Esse lanche tem..."
+        "price": "R$ 32,00",
+        "description": "Pão de brioche, 2 carnes 70g smash, cheddar e maionese"
     },
     {   
         "id": 3,
         "name": "Janeth",
         "image": "https://i.ibb.co/K78f7Dk/lanche.png",
-        "price": "R$ 20,00",
-        "description": "Esse lanche tem..."
+        "price": "R$ 25,00",
+        "description": "Pão de brioche, carne 130g, queijo prato, alface americano, tomate e maionese."
     },
     {   
         "id": 4,
         "name": "Leandrinho",
         "image": "https://i.ibb.co/K78f7Dk/lanche.png",
-        "price": "R$ 20,00",
-        "description": "Esse lanche tem..."
+        "price": "R$ 29,00",
+        "description": "Pão de brioche, carne 130g, cheddar, bacon fatiado e maionese."
     },
     {   
         "id": 5,
         "name": "The Professor",
         "image": "https://i.ibb.co/K78f7Dk/lanche.png",
-        "price": "R$ 20,00",
-        "description": "Esse lanche tem..."
+        "price": "R$ 23,00",
+        "description": "Pão de brioche, carne 130g, cheddar e maionese."
     }
 ]

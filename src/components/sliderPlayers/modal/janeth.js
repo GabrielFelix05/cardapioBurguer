@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import Lebron from '../imgs/lebronJames.jpg'
+import Janeth from '../imgs/janeth.png'
 import Close from '../imgs/close.png'
 
 export default function Modal() {
@@ -20,7 +20,7 @@ export default function Modal() {
     <>
 
         <div className='Player' onClick={toggleModal}>
-            <img src={Lebron} alt="Lebron" className='imgplayer'/>
+            <img src={Janeth} alt="Janeth" className='imgplayer'/>
             <p>Janeth</p>
         </div>
 
@@ -30,12 +30,9 @@ export default function Modal() {
           <div className="modal-content">
             <h2>Janeth</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
+              Janeth dos Santos Arcain nascida em 11 de abril de 1969 é uma ex-jogadora brasileira de basquetebol.<br/>
+              Atuava como ala-armadora e foi uma das expoentes da Seleção, sendo campeã mundial em 1994 e vencedora de duas medalhas olímpicas.<br/>
+              Janeth é a terceira maior pontuadora da história da Seleção, tendo anotado 2.247 pontos em 138 jogos oficiais, média de 16,3 pontos por jogo.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               <img src={Close} alt="Fechar" className='imgClose'/>
