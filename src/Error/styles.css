@@ -1,0 +1,41 @@
+.containerError {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 90px 0;
+}
+
+.containerBackButton {
+    max-width: 100%;
+    width: 100%;
+}
+
+.containerError h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.containerError p {
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+
+.containerError strong {
+    margin: 55px 10px 0;
+    text-align: center;
+}
+
+.containerError .giterror {
+    width: 270px;
+}
+
+.containerError a {
+    margin-left: 30px;
+}
+
+.containerError a img {
+    background: #FF9A44;
+    padding: 4px;
+    border-radius: 50px;
+}

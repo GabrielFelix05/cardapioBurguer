@@ -6,24 +6,18 @@ import { Link } from 'react-router-dom';
 function Menu() {
   return (
     <div className='containerMenu'>
-      <div className='contaienrButtons'>
+      <div className='contaienrButtonsDrink'>
         <Link to='/' className='snack'>Lanches</Link>
         <Link to='/bebidas' className='drink'>Bebidas</Link>
       </div>
-      <div className="menu">
+      <div className="containerMenuDrink">
           {
             Dados.map( dado => {
               return (
-                  <div className="menuSnack" key={dado.id}>
-                    <div className='containerSnack'>
-                      <strong>{dado.name}</strong>
-                      <img src={dado.image} alt="Lanche" className='snack'/>
-                    </div>
-                   
-                    <div className='containerDescription'>
-                      <p>{dado.description}</p>
+                  <div className="menudrink" key={dado.id}>
+                      <img src={dado.image} alt="Lanche" className='drink'/>
+                      <p>{dado.name}</p>
                       <strong className='price'>{dado.price}</strong>
-                    </div>
                   </div>
               )
           })

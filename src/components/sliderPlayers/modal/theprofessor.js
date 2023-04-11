@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import Lebron from '../imgs/lebronJames.jpg'
+import Theprofessor from '../imgs/theProfessor.jpg'
 import Close from '../imgs/close.png'
 
 export default function Modal() {
@@ -20,7 +20,7 @@ export default function Modal() {
     <>
 
         <div className='Player' onClick={toggleModal}>
-            <img src={Lebron} alt="Lebron" className='imgplayer'/>
+            <img src={Theprofessor} alt="The professor" className='imgplayer'/>
             <p>The Professor</p>
         </div>
 
@@ -30,12 +30,7 @@ export default function Modal() {
           <div className="modal-content">
             <h2>The Professor</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
+              The Professor é jogador americano de basquetebol de rua conhecido pelo seu jogo no circuito internacional AND1 Mixtape Tour. As suas capacidades levaram a aparecer em anúncios publicitários, bem como em filmes mainstream como Semi-Pro e Ball Don't Lie.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               <img src={Close} alt="Fechar" className='imgClose'/>

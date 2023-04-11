@@ -30,12 +30,7 @@ export default function Modal() {
           <div className="modal-content">
             <h2>Lebron</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
+              LeBron James é um dos melhores jogadores da história do basquete. Nascido em 30 de dezembro de 1984, em Akron, no estado de Ohio, nos Estados Unidos, ele iniciou sua trajetória na NBA em 2003, no Cleveland Cavaliers. Passou também pelo Miami Heat e, atualmente, defende o Los Angeles Lakers.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               <img src={Close} alt="Fechar" className='imgClose'/>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import Lebron from '../imgs/lebronJames.jpg'
+import Leandrinho from '../imgs/leandrinho.jpg'
 import Close from '../imgs/close.png'
 
 export default function Modal() {
@@ -20,7 +20,7 @@ export default function Modal() {
     <>
 
         <div className='Player' onClick={toggleModal}>
-            <img src={Lebron} alt="Lebron" className='imgplayer'/>
+            <img src={Leandrinho} alt="Leandrinho" className='imgplayer'/>
             <p>Leandrinho</p>
         </div>
 
@@ -30,12 +30,7 @@ export default function Modal() {
           <div className="modal-content">
             <h2>Leandrinho</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
+              Leadrinho nascido em 28 de novembro de 1982 iniciou sua carreira no Palmeiras em 1999 e depois passou pelo Bauru, entre 2001 e 2003, quando trocou o basquete brasileiro pelo norte-americano. Na NBA, o ala-armador se destacou no Phoenix Suns, tendo sido eleito melhor sexto homem da temporada 2006/07.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               <img src={Close} alt="Fechar" className='imgClose'/>

@@ -1,0 +1,45 @@
+
+.contaienrButtonsDrink {
+    margin: 20px 0 40px 0px
+}
+
+.contaienrButtonsDrink .snack {
+    font-size: 14px;
+}
+
+.contaienrButtonsDrink .drink {
+    background: #FF9A44;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.menudrink {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.menudrink .drink{
+    width: 70px;
+}
+
+.menudrink p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.menudrink .price {
+    margin-top: 0;
+}
+
+.menudrink strong {
+    font-weight: 100;
+}
+
+.containerMenuDrink {
+    display: grid;
+    grid-template-columns: 170px 180px;
+}

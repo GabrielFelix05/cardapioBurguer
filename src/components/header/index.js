@@ -1,8 +1,6 @@
 import React from 'react'
 import './styles.css';
 import Logo from '../../imgs/logoBasketballBurger.png'
-import { Link } from 'react-router-dom';
-
 
 function Header() {
   return (
